@@ -42,9 +42,11 @@
 })();
 
 
-var Developer = (function() {
+(function() {
 
     'use strict';
+
+    logSeparator('Class Inheritance');
 
     class Human {
 
@@ -75,19 +77,13 @@ var Developer = (function() {
 
     }
 
-    return Developer;
+    var John = new Developer('John', '28');
+    console.log(John.getSkills());
+
+    John.setSkills(['JavaScript', 'CSS', 'HTML']);
+    console.log(John.getSkills());
 
 })();
-
-logSeparator('Class Inheritance');
-
-var John = new Developer('John', '28');
-
-console.log(John.getSkills());
-
-John.setSkills(['JavaScript', 'CSS', 'HTML']);
-
-console.log(John.getSkills());
 
 (function() {
 
