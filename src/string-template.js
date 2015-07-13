@@ -2,7 +2,7 @@
 
     'use strict';
 
-    logSeparator('Templating');
+    logSeparator('String Template');
 
     var sports = ['Football', 'Hockey', 'Tennis', 'Rugby'];
     var persons = ['Alex', 'Sarah', 'John', 'Andrew'];

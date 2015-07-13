@@ -97,7 +97,7 @@ var Developer = (function () {
     return Developer;
 })();
 
-logSeparator('Classes');
+logSeparator('Class Inheritance');
 
 var John = new Developer('John', '28');
 
@@ -111,7 +111,7 @@ console.log(John.getSkills());
 
     'use strict';
 
-    logSeparator('Templating');
+    logSeparator('String Template');
 
     var sports = ['Football', 'Hockey', 'Tennis', 'Rugby'];
     var persons = ['Alex', 'Sarah', 'John', 'Andrew'];

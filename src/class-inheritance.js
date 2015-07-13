@@ -35,7 +35,7 @@ var Developer = (function() {
 
 })();
 
-logSeparator('Classes');
+logSeparator('Class Inheritance');
 
 var John = new Developer('John', '28');
 
