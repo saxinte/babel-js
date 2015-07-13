@@ -38,12 +38,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         console.log(e);
     }
 
-    var buttons = document.querySelectorAll('#assignment button');
+    var buttons = document.querySelectorAll('#assignment button'),
+        clickedButton = document.getElementById('clickedButton');
 
     var _loop = function () {
         var index = i;
         buttons[i].addEventListener('click', function () {
-            document.getElementById('index').innerHTML = buttons[index].innerHTML;
+            clickedButton.innerHTML = buttons[index].innerHTML;
         });
     };
 
