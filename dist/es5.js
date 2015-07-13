@@ -125,4 +125,3 @@ console.log(John.getSkills());
 function logSeparator(msg) {
     console.log('------------------ ' + msg + ' ------------------');
 }
-//# sourceMappingURL=es5.js.map

@@ -12,8 +12,6 @@
 
 })();
 
-
-
 (function() {
 
     'use strict';
@@ -90,8 +88,6 @@ console.log(John.getSkills());
 John.setSkills(['JavaScript', 'CSS', 'HTML']);
 
 console.log(John.getSkills());
-
-
 
 (function() {
 
