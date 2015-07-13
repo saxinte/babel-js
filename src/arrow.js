@@ -1,10 +1,8 @@
-/*
- *  Arrow function
- */
-logSeparator('Arrow function');
 (function() {
 
     'use strict';
+
+    logSeparator('Arrow function');
 
     var fruits = ['banana', 'lemon', 'mango', 'kiwi'];
 

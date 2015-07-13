@@ -16,11 +16,7 @@ module.exports = function(grunt) {
 
         concat: {
             dist: {
-                src: [
-                    'src/utils.js',
-                    'src/arrow.js',
-                    'src/let.js'
-                ],
+                src: 'src/*.js',
                 dest: 'dist/es6.js',
             }
         },
